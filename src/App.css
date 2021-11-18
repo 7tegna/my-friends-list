@@ -1,5 +1,26 @@
+* {
+  background-color: #6ce0ec;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
+  background-color: #6ce0ec;
+}
+.main-class {
+  background-color: rgb(51, 110, 111);
+  text-align: center;
+  margin: 5%;
+  padding: 2%;
+  display: inline-block;
+}
+.image-class {
+  padding: 0;
+  display: inline-block;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+h2 {
+  padding: 10%;
 }
 
 .App-logo {
@@ -9,12 +30,12 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #49546b;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
