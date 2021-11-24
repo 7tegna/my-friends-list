@@ -14,9 +14,17 @@ function App() {
   
     return(
       <div className="App">
-        <h1> My Friends Profile. </h1>
+        <nav className="navbar">
+        <ul> 
+          <h1 className="first-header"> MY  FRIENDS   PROFILE. </h1>
+        <h3>There are {Store.length} friends in this profile. </h3>
+        </ul>
+        </nav>
+        
         <Main main={store}/> 
-  
+        <nav className="side-nav" nav={store}/>
+              
+      
       </div>
   ) 
 }
